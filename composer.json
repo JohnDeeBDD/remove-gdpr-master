@@ -1,0 +1,11 @@
+{
+    "require-dev": {
+        "lucatume/wp-browser": "*"
+    },
+    "require": {
+        "site5/phantoman": "*"
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}

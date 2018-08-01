@@ -1,0 +1,35 @@
+{
+  "name": "lucatume/wp-snaphot-assertions",
+  "description": "A set of utilities to support snapshot testing of WordPress code.",
+  "keywords": [
+    "wordpress",
+    "snapshot",
+    "testing"
+  ],
+  "homepage": "https://github.com/lucatume/wp-snaphot-assertions",
+  "license": "GPL-2.0",
+  "authors": [
+    {
+      "name": "theAverageDev (Luca Tumedei)",
+      "email": "luca@theaveragedev.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "spatie/phpunit-snapshot-assertions": "^1.2",
+    "electrolinux/phpquery": "^0.9.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "tad\\WP\\Snapshots\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "tad\\WP\\Snapshots\\": "tests/"
+    },
+    "files": [
+      "tests/utils.php"
+    ]
+  }
+}
